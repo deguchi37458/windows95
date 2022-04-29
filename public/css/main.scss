@@ -1,0 +1,11 @@
+@charset "utf-8";
+@import "./base/_mixin.scss";
+@import "./base/_reset.scss";
+
+body {
+  font-size: 16px;
+  font-family: 'Space Mono','monospace','Noto Sans JP',sans-serif;
+}
+p {
+  line-height: 1.6;
+}
