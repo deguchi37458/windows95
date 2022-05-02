@@ -1,5 +1,5 @@
 <template>
-  <div class="back">
+  <div class="back" @rightclick.capture="rightClick">
     <taskbar></taskbar>
     {{name}}
   </div>
@@ -16,9 +16,13 @@ export default {
     return {
       name: "deguchi"
     }
+  },
+  methods:{
+    rightClick: function(){
+      console.log("Right Click");
+    }
   }
 }
-
 
 </script>
 
