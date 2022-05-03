@@ -1,8 +1,8 @@
 <template>
   <div class="taskbar">
     <div class="start">
-      Start
-    </div>
+      <img src="@/assets/start-button.png" alt="">
+      </div>
     <div class="end">
 
     </div>
@@ -11,12 +11,28 @@
 
 <style scoped>
 .taskbar {
+  background-color: silver;
+  padding: 2px;
   position: fixed;
-  bottom: 0;
+  right: 0;
   left: 0;
-  width: 100%;
-  height: 40px;
-  background-color: #c0c0c2;
-  border-top: solid 1px #fff;
+  bottom: 0;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #4e4e4e;
+  box-shadow: inset 1px 0 #fff;
+  display: flex;
+  align-items: center;
+}
+.start {
+  background-color: silver;
+  display: inline-block;
+  line-height: 0;
+  padding: 2px 6px 3px;
+  margin: 0 6px 2px 2px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  box-shadow: inset 1px 1px #dfdfdf, 1px 0 #000, 0 1px #000, 1px 1px #000;
 }
 </style>
