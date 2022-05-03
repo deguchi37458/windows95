@@ -4,7 +4,7 @@
       <img src="@/assets/start-button.png" alt="">
       </div>
     <div class="end">
-
+      11:20
     </div>
   </div>
 </template>
@@ -22,11 +22,14 @@
   box-shadow: inset 1px 0 #fff;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.start {
+.start,
+.end{
+  font-size: 14px;
   background-color: silver;
   display: inline-block;
-  line-height: 0;
+  line-height: 1.8rem;
   padding: 2px 6px 3px;
   margin: 0 6px 2px 2px;
   border-top: 1px solid #fff;
