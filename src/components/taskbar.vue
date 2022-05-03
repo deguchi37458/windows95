@@ -1,13 +1,23 @@
 <template>
   <div class="taskbar">
-    <div class="start">
+    <div class="start" v-on:click="onStart">
       <img src="@/assets/start-button.png" alt="">
-      </div>
+    </div>
     <div class="end">
       11:20
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    onStart: {
+      
+    }
+  }
+}
+</script>
 
 <style scoped>
 .taskbar {
