@@ -6,6 +6,20 @@
     <div class="end">
       11:20
     </div>
+    <div id="menu" class="menu">
+      <div class="windows95">
+
+      </div>
+      <ul class="menu-list">
+        <li><img src="@/assets/file.png" alt="">ﾌﾟﾛｸﾞﾗﾑ(P)</li>
+        <li><img src="@/assets/file.png" alt="">最近使ったﾌｧｲﾙ(D)</li>
+        <li><img src="@/assets/setting.png" alt="">設定(S)</li>
+        <li><img src="@/assets/search.png" alt="">検索(F)</li>
+        <li><img src="@/assets/help.png" alt="">ﾍﾙﾌﾟ(H)</li>
+        <li><img src="@/assets/run.png" alt="">ﾌｧｲﾙを検索して実行(R)...</li>
+        <li class="shut-down"><img src="@/assets/shut-down.png" alt="">Windows の終了(U)...</li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -30,9 +44,10 @@ export default {
   border-top: 1px solid #f4f4f4;
   border-bottom: 1px solid #4e4e4e;
   box-shadow: inset 1px 0 #fff;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
+  height: 33px;
 }
 .start,
 .end{
@@ -47,5 +62,41 @@ export default {
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
   box-shadow: inset 1px 1px #dfdfdf, 1px 0 #000, 0 1px #000, 1px 1px #000;
+}
+.start {
+  position: absolute;
+  left: 0;
+}
+.end {
+  position: absolute;
+  right: 0;
+}
+.menu {
+  display: flex;
+  position: absolute;
+  background-color: silver;
+  left: 5px;
+  bottom: 32px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  box-shadow: inset 1px 1px #dfdfdf, 1px 0 #000, 0 1px #000, 1px 1px #000;
+}
+.menu .menu-list li {
+  display: flex;
+  align-items: center;
+}
+.menu .menu-list li:hover {
+  background-color: navy;
+  color: #fff;
+}
+.menu .menu-list li img{
+  width: 48px;
+}
+.windows95 {
+  background-color: #84878C;
+  height: 100%;
+  width: 30px;
 }
 </style>
