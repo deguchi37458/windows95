@@ -11,8 +11,22 @@
 
       </div>
       <ul class="menu-list">
-        <li><img src="@/assets/file.png" alt="">ﾌﾟﾛｸﾞﾗﾑ(P)</li>
-        <li><img src="@/assets/file.png" alt="">最近使ったﾌｧｲﾙ(D)</li>
+        <li>
+          <img src="@/assets/file.png" alt="">ﾌﾟﾛｸﾞﾗﾑ(P)
+          <ul class="sub-menu-list">
+            <li>ﾌﾟﾛｸﾞﾗﾑ</li>
+            <li>ﾌﾟﾛｸﾞﾗﾑ</li>
+            <li>ﾌﾟﾛｸﾞﾗﾑ</li>
+          </ul>
+        </li>
+        <li>
+          <img src="@/assets/file.png" alt="">最近使ったﾌｧｲﾙ(D)
+          <ul class="sub-menu-list">
+            <li>最近使ったﾌｧｲﾙ</li>
+            <li>最近使ったﾌｧｲﾙ</li>
+            <li>最近使ったﾌｧｲﾙ</li>
+          </ul>
+        </li>
         <li><img src="@/assets/setting.png" alt="">設定(S)</li>
         <li><img src="@/assets/search.png" alt="">検索(F)</li>
         <li><img src="@/assets/help.png" alt="">ﾍﾙﾌﾟ(H)</li>
@@ -88,6 +102,8 @@ export default {
   display: flex;
 }
 .menu .menu-list li {
+  position: relative;
+  width: 250px;
   display: flex;
   align-items: center;
 }
@@ -101,5 +117,10 @@ export default {
 .windows95 {
   background-color: #84878C;
   width: 35px;
+}
+.sub-menu-list {
+  position: absolute;
+  top: 0;
+  right: -250px;
 }
 </style>
