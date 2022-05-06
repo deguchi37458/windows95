@@ -100,7 +100,6 @@ export default {
 }
 .windows95 {
   background-color: #84878C;
-  height: 100%;
-  width: 30px;
+  width: 35px;
 }
 </style>
