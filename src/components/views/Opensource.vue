@@ -3,34 +3,19 @@
     <h2>ｵｰﾌﾟﾝｿｰｽ</h2>
 
     <div class="inner-content">
-        
+        <p class="paragraph">Vue.jsを用いたﾃｰﾏの作成を行なっております。</p>
     </div>
 
     <div class="inner-content">
         <a href="https://main-preview-site.netlify.app/" target="_blank">
             <img src="@/assets/open-source/main.png" alt="screenshot of main preview template" />
-            <h4 class="subtitle">Main Preview Page</h4>
+            <h4 class="subtitle">Linux Theme</h4>
         </a>
     </div>
-
     <div class="inner-content">
         <a href="https://windows-template.netlify.app/" target="_blank">
             <img src="@/assets/open-source/win95.png" alt="screenshot of windows 95 template" />
-            <h4 class="subtitle">Windows 95 Theme</h4>
-        </a>
-    </div>
-
-    <div class="inner-content">
-        <a href="https://macos-template.netlify.app/" target="_blank">
-            <img src="@/assets/open-source/macos.png" alt="screenshot of MacOS template" />
-            <h4 class="subtitle">MacOS Theme</h4>
-        </a>
-    </div>
-
-    <div class="inner-content">
-        <a href="https://blueprint-template.netlify.app/" target="_blank">
-            <img src="@/assets/open-source/blueprint.png" alt="screenshot of blueprint template" />
-            <h4 class="subtitle">Blueprint Theme</h4>
+            <h4 class="subtitle">Windows95 Theme</h4>
         </a>
     </div>
 </div>
