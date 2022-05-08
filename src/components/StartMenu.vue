@@ -4,55 +4,37 @@
             <img class="sidebar-image" src="@/assets/sidebar-image.png"/>
         </div>
         <div class="socials">
-            <a href="https://www.instagram.com/__dontax__/" target="_blank">
+            <a href="">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Instagram.webp"/>
-                <div class="social-text"><u>I</u>nstagram</div>
+                <img class="social-image" src="@/assets/file.png"/>
+                ﾚｼﾞｭﾒ (<u>R</u>)
             </div>
             </a>
-            <a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank">
+            <a href="">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Reddit.webp"/>
-                <u>R</u>eddit
+                <img class="social-image" src="@/assets/run.png"/>
+                制作実績(<u>W</u>)
             </div>
             </a>
-            <a href="https://www.linkedin.com/in/don-chia-0b518b160/" target="_blank">
+            <a href="">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Linkedin.webp"/>
-                <u>L</u>inkedIn
-            </div>
-            </a>
-            <a href="https://twitter.com/lizarDON2303" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Twitter.webp"/>
-                <u>T</u>witter
-            </div>
-            </a>
-            <a href="https://github.com/dhs17y2adonchia" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Github.webp"/>
-                <u>G</u>itHub
+                <img class="social-image" src="@/assets/help.png"/>
+                ﾍﾙﾌﾟ(<u>H</u>)
             </div>
             </a>
             <div class="divider"></div>
-            <a href="/files/don_chia_resume.pdf" target="_blank">
+            <a href="">
                 <div class="bar">
-                    <img class="social-image" src="@/assets/win95Icons/resume.png"/>
-                    <u>R</u>ésumé
+                    <img class="social-image" src="@/assets/shut-down.png"/>
+                    Windows の終了(<u>U</u>)...
                 </div>
-            </a>
-            <a href="https://apps.apple.com/app/nossaflex/id1523558285" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Nossaflex.webp"/>
-                <u>N</u>OSSAFLEX
-            </div>
             </a>
         </div>
     </div>
 </template>
 <style scoped>
 .menu {
-    width: 165px;
+    width: 250px;
     height: 282px;
     background: black;
     background: rgb(195, 195, 195);
@@ -111,8 +93,8 @@ a {
 }
 
 .social-image {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
     border-radius: 6px;
 }
@@ -120,7 +102,7 @@ a {
 .bar {
     display: flex;
     flex-direction: row;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
     align-items: center;
 }
 

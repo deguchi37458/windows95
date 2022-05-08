@@ -56,7 +56,7 @@ html {
 }
 
 #app {
-    font-family: 'MS Sans Serif';
+    font-family: 'DotGothic16', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
