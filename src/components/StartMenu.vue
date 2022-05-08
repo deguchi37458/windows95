@@ -4,18 +4,14 @@
             <img class="sidebar-image" src="@/assets/sidebar-image.png"/>
         </div>
         <div class="socials">
-            <a href="">
-            <div class="bar">
+            <div class="bar" @click="openWindow(windows[1].windowId)">
                 <img class="social-image" src="@/assets/file.png"/>
                 ﾚｼﾞｭﾒ (<u>R</u>)
             </div>
-            </a>
-            <a href="">
-            <div class="bar">
+            <div class="bar" @click="openWindow(windows[1].windowId)">
                 <img class="social-image" src="@/assets/run.png"/>
                 制作実績(<u>W</u>)
             </div>
-            </a>
             <a href="">
             <div class="bar">
                 <img class="social-image" src="@/assets/help.png"/>
@@ -113,6 +109,25 @@ a {
 </style>
 <script>
 export default {
-    
+    name: 'StartMenu',
+    data: function () {
+        return {
+            windows: this.$store.getters.getWindows,
+            gridHeight: ''
+        }
+    },
+    methods: {
+        openWindow(windowId) {
+            const payload = {
+                'windowState': 'open',
+                'windowID': windowId
+            }
+            this.$store.commit('setWindowState', payload)
+        }
+    },
+    mounted() {
+        let gridH =  this.$store.getters.getFullscreenWindowHeight
+        this.gridHeight = gridH.substring(0, gridH.length - 2) - 60 + 'px'
+    },
 }
 </script>
