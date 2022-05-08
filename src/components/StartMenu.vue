@@ -12,19 +12,15 @@
                 <img class="social-image" src="@/assets/run.png"/>
                 制作実績(<u>W</u>)
             </div>
-            <a href="">
             <div class="bar">
                 <img class="social-image" src="@/assets/help.png"/>
                 ﾍﾙﾌﾟ(<u>H</u>)
             </div>
-            </a>
             <div class="divider"></div>
-            <a href="">
-                <div class="bar">
-                    <img class="social-image" src="@/assets/shut-down.png"/>
-                    Windows の終了(<u>U</u>)...
-                </div>
-            </a>
+            <div class="bar">
+                <img class="social-image" src="@/assets/shut-down.png"/>
+                Windows の終了(<u>U</u>)...
+            </div>
         </div>
     </div>
 </template>
