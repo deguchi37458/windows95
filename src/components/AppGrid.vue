@@ -3,12 +3,12 @@
     class="grid-container"
     :style="{height: gridHeight}"
 >
-    <li v-for="window in windows" :key="window.key">
-        <button class="icon" @touchstart="openWindow(window.windowId)" @dblclick="openWindow(window.windowId)">
-            <img class="icon-image" :src="require('../assets/win95Icons/' + window.iconImage)" :alt="window.altText" />
+    <li>
+        <button class="icon" @touchstart="openWindow(windows[0].windowId)" @dblclick="openWindow(windows[0].windowId)">
+            <img class="icon-image" :src="require('../assets/win95Icons/' + windows[0].iconImage)" :alt="windows[0].altText" />
             <div class="border">
             <p class="icon-text">
-                {{window.displayName}}
+                {{windows[0].displayName}}
             </p>
             </div>
         </button>
@@ -55,7 +55,7 @@ export default {
             this.$store.commit('setWindowState', payload)
         },
         openGithub() {
-            window.open("https://github.com/deguchi37458"); 
+            window.open("https://github.com/dhs17y2adonchia"); 
         }
     },
     mounted() {
