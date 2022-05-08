@@ -112,7 +112,7 @@ import AppGrid from './components/AppGrid'
 import Placeholder from './components/views/Placeholder'
 // import Photos from './components/views/Photos'
 import Bio from './components/views/Bio'
-import Resume from './components/views/Resume'
+// import Resume from './components/views/Resume'
 // import Nossaflex from './components/views/Nossaflex'
 // import Mail from './components/template/Mail'
 import StartMenu from './components/StartMenu.vue'
@@ -133,7 +133,7 @@ export default {
         Placeholder,
         // Photos,
         Bio,
-        Resume,
+        // Resume,
         // Nossaflex,
         // Mail,
         StartMenu,
