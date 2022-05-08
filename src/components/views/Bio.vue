@@ -1,7 +1,7 @@
 <template>
 <div>
     <!-- <img class="self" src="@/assets/Biography/self.webp" /> -->
-    <h2 class="header">Hiroki Deguchi (出口裕樹)</h2>
+    <h2 class="header">ﾃﾞｸﾞﾁ ﾋﾛｷ (出口裕樹)</h2>
     <h4 class="subtitle" style="padding-bottom: 10px;">Web Engineer</h4>
     <h4 class="subtitle">Japan 📍</h4>
     <!-- <div class="badge-grid">
@@ -19,12 +19,14 @@
         <img class="badge" alt="Figma" src="https://img.shields.io/badge/-Figma-8c5aee" />
     </div> -->
     <div class="inner-content">
-        <h3 class="heading"><b>About Me</b></h3>
-        <p class="paragraph">ダミーテキストダミーテキスト</p>
+        <h3 class="heading"><b>Personal Information</b></h3>
+        <p class="paragraph">Date of Birth: 1994/05/07</p>
+        <p class="paragraph">Address: Osaka</p>
+        <p class="paragraph">E-mail: deguchi37458@gmail.com</p>
     </div>
     <div class="inner-content">
-        <h3 class="heading"><b>Résumé</b></h3>
-        <a style="color: #FF5733;" href="/files/resume.pdf" class="paragraph">Check out my résumé here.</a>
+        <h3 class="heading"><b>Resume</b></h3>
+        <a style="color: #FF5733;" href="/files/resume.pdf" class="paragraph">Check out my resume here.</a>
     </div>
 </div>
 </template>
