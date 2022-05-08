@@ -113,25 +113,25 @@ export default new Vuex.Store({
       //     altText: "NOSSAFLEX App",
       //     fullscreen: false
       // },
-      // {
-      //   windowId: "OpenSourceWindow", 
-      //     windowState: "close",
-      //     displayName: "Open Source",
-      //     windowComponent: 'window',
-      //     windowContent: 'opensource',
-      //     windowContentPadding: {
-      //       top: null,
-      //       right: '15px',
-      //       bottom: null,
-      //       left: '15px'
-      //     },
-      //     position: "absolute",
-      //     positionX: "6vw",
-      //     positionY: "12vh",
-      //     iconImage: "opensource.png",
-      //     altText: "Open Source Projects",
-      //     fullscreen: false
-      // },
+      {
+        windowId: "OpenSourceWindow", 
+          windowState: "close",
+          displayName: "ｵｰﾌﾟﾝｿｰｽ",
+          windowComponent: 'window',
+          windowContent: 'opensource',
+          windowContentPadding: {
+            top: null,
+            right: '15px',
+            bottom: null,
+            left: '15px'
+          },
+          position: "absolute",
+          positionX: "6vw",
+          positionY: "12vh",
+          iconImage: "opensource.png",
+          altText: "Open Source Projects",
+          fullscreen: false
+      },
       // {
       //   windowId: "MailWindow", 
       //     windowState: "close",

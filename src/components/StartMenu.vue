@@ -12,6 +12,10 @@
                 <img class="social-image" src="@/assets/run.png"/>
                 制作実績(<u>W</u>)
             </div>
+            <div class="bar" @click="openWindow(windows[3].windowId)">
+                <img class="social-image" src="@/assets/run.png"/>
+                ｵｰﾌﾟﾝｿｰｽ(<u>S</u>)
+            </div>
             <div class="bar">
                 <img class="social-image" src="@/assets/help.png"/>
                 ﾍﾙﾌﾟ(<u>H</u>)

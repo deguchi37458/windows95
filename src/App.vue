@@ -118,7 +118,7 @@ import Works from './components/views/Works'
 // import Mail from './components/template/Mail'
 import StartMenu from './components/StartMenu.vue'
 // import Webos from './components/template/WebOS'
-// import Opensource from './components/views/Opensource'
+import Opensource from './components/views/Opensource'
 export default {
     name: 'App',
     data: function () {
@@ -140,7 +140,7 @@ export default {
         // Mail,
         StartMenu,
         // Webos,
-        // Opensource
+        Opensource
         // TopNavbar,
     },
     computed: {

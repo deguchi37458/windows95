@@ -1,21 +1,9 @@
 <template>
 <div>
-    <h2>Open Source Projects</h2>
+    <h2>ｵｰﾌﾟﾝｿｰｽ</h2>
 
     <div class="inner-content">
-        <h3 class="heading"><a href="https://github.com/dhs17y2adonchia/vuejs-os-template">OS Template for Vue.JS</a></h3>
-        <p class="paragraph">An open source WIP template made and designed for Vue 2.</p>
-        <p class="paragraph">Technologies used:</p>
-        <ul>
-            <li class="paragraph">- Vue 2</li>
-            <li class="paragraph">- Vuex</li>
-            <li class="paragraph">- InteractJS</li>
-            <li class="paragraph">- MomentJS</li>
-        </ul>
-        <p class="paragraph">Built with encapsulation of each window frame in mind, this enables users to easily reuse the base template of a basic window and fill it up with their own content.</p>
-        <p class="paragraph">The template was built with ease of use in mind as well as themeing. Included in the template are three separate themes, the basic Blueprint theme, a Windows theme and a MacOS theme.</p>
-        <p class="paragraph">Users are able to quickly switch between their preferred theme by changing a few lines of code. Resusability is encouraged through the means of slots and template components.</p>
-
+        
     </div>
 
     <div class="inner-content">
