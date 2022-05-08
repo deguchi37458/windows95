@@ -6,7 +6,7 @@
         <div class="socials">
             <div class="bar" @click="openWindow(windows[1].windowId)">
                 <img class="social-image" src="@/assets/file.png"/>
-                ﾚｼﾞｭﾒ (<u>R</u>)
+                ﾚｼﾞｭﾒ(<u>R</u>)
             </div>
             <div class="bar" @click="openWindow(windows[2].windowId)">
                 <img class="social-image" src="@/assets/run.png"/>
@@ -105,6 +105,7 @@ a {
 .bar:hover {
     background: rgb(0, 0, 118);
     color: white;
+    cursor:pointer;
 }
 </style>
 <script>
