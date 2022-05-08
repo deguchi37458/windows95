@@ -110,14 +110,14 @@ import Navbar from './components/windows/Navbar'
 import Window from './components/template/Window'
 import AppGrid from './components/AppGrid'
 import Placeholder from './components/views/Placeholder'
-import Photos from './components/views/Photos'
+// import Photos from './components/views/Photos'
 import Bio from './components/views/Bio'
 import Resume from './components/views/Resume'
-import Nossaflex from './components/views/Nossaflex'
-import Mail from './components/template/Mail'
+// import Nossaflex from './components/views/Nossaflex'
+// import Mail from './components/template/Mail'
 import StartMenu from './components/StartMenu.vue'
-import Webos from './components/template/WebOS'
-import Opensource from './components/views/Opensource'
+// import Webos from './components/template/WebOS'
+// import Opensource from './components/views/Opensource'
 export default {
     name: 'App',
     data: function () {
@@ -131,14 +131,14 @@ export default {
         Navbar,
         AppGrid,
         Placeholder,
-        Photos,
+        // Photos,
         Bio,
         Resume,
-        Nossaflex,
-        Mail,
+        // Nossaflex,
+        // Mail,
         StartMenu,
-        Webos,
-        Opensource
+        // Webos,
+        // Opensource
         // TopNavbar,
     },
     computed: {

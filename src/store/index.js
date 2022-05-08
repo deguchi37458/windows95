@@ -31,7 +31,7 @@ export default new Vuex.Store({
           left: null
         }, // Window Content Padding 
         position: "absolute", // Window Position
-        positionX: "5vw", // Window Position X (when first opened)
+        positionX: "25vw", // Window Position X (when first opened)
         positionY: "5%", // Window Position Y (when first opened)
         iconImage: "bio.png", // Window Icon Image
         altText: "Biography", // Window Icon Alt Text
@@ -56,101 +56,101 @@ export default new Vuex.Store({
         altText: "Résumé", // Window Icon Alt Text
         fullscreen: false // Window Fullscreen State [true, false]
       },
-      {
-        windowId: "PhotosWindow", 
-          windowState: "close",
-          displayName: "Photos",
-          windowComponent: 'window',
-          windowContent: 'photos',
-          windowContentPadding: {
-            top: '10px',
-            right: '10px',
-            bottom: '10px',
-            left: '10px'
-          },
-          position: "absolute",
-          positionX: "6vw",
-          positionY: "12vh",
-          iconImage: "photos.png",
-          altText: "Photos",
-          fullscreen: false
-      },
-      {
-        windowId: "NOSSAFLEXWindow", 
-          windowState: "close",
-          displayName: "NOSSAFLEX",
-          windowComponent: 'window',
-          windowContent: 'nossaflex',
-          windowContentPadding: {
-            top: null,
-            right: null,
-            bottom: null,
-            left: null
-          },
-          position: "absolute",
-          positionX: "6vw",
-          positionY: "12vh",
-          iconImage: "noss.webp",
-          altText: "NOSSAFLEX App",
-          fullscreen: false
-      },
-      {
-        windowId: "OpenSourceWindow", 
-          windowState: "close",
-          displayName: "Open Source",
-          windowComponent: 'window',
-          windowContent: 'opensource',
-          windowContentPadding: {
-            top: null,
-            right: '15px',
-            bottom: null,
-            left: '15px'
-          },
-          position: "absolute",
-          positionX: "6vw",
-          positionY: "12vh",
-          iconImage: "opensource.png",
-          altText: "Open Source Projects",
-          fullscreen: false
-      },
-      {
-        windowId: "MailWindow", 
-          windowState: "close",
-          displayName: "Mail",
-          windowComponent: 'mail',
-          windowContent: '',
-          windowContentPadding: {
-            top: '0',
-            right: '0',
-            bottom: '0',
-            left: '0'
-          },
-          position: "absolute",
-          positionX: "6vw",
-          positionY: "12vh",
-          iconImage: "mail.png",
-          altText: "Mail",
-          fullscreen: false
-      },
-      {
-        windowId: "WebOSWindow", 
-          windowState: "close",
-          displayName: "Web OS",
-          windowComponent: 'webos',
-          windowContent: '',
-          windowContentPadding: {
-            top: '0',
-            right: '0',
-            bottom: '0',
-            left: '0'
-          },
-          position: "absolute",
-          positionX: "6vw",
-          positionY: "12vh",
-          iconImage: "webos.png",
-          altText: "Web OS",
-          fullscreen: true
-      }
+      // {
+      //   windowId: "PhotosWindow", 
+      //     windowState: "close",
+      //     displayName: "Photos",
+      //     windowComponent: 'window',
+      //     windowContent: 'photos',
+      //     windowContentPadding: {
+      //       top: '10px',
+      //       right: '10px',
+      //       bottom: '10px',
+      //       left: '10px'
+      //     },
+      //     position: "absolute",
+      //     positionX: "6vw",
+      //     positionY: "12vh",
+      //     iconImage: "photos.png",
+      //     altText: "Photos",
+      //     fullscreen: false
+      // },
+      // {
+      //   windowId: "NOSSAFLEXWindow", 
+      //     windowState: "close",
+      //     displayName: "NOSSAFLEX",
+      //     windowComponent: 'window',
+      //     windowContent: 'nossaflex',
+      //     windowContentPadding: {
+      //       top: null,
+      //       right: null,
+      //       bottom: null,
+      //       left: null
+      //     },
+      //     position: "absolute",
+      //     positionX: "6vw",
+      //     positionY: "12vh",
+      //     iconImage: "noss.webp",
+      //     altText: "NOSSAFLEX App",
+      //     fullscreen: false
+      // },
+      // {
+      //   windowId: "OpenSourceWindow", 
+      //     windowState: "close",
+      //     displayName: "Open Source",
+      //     windowComponent: 'window',
+      //     windowContent: 'opensource',
+      //     windowContentPadding: {
+      //       top: null,
+      //       right: '15px',
+      //       bottom: null,
+      //       left: '15px'
+      //     },
+      //     position: "absolute",
+      //     positionX: "6vw",
+      //     positionY: "12vh",
+      //     iconImage: "opensource.png",
+      //     altText: "Open Source Projects",
+      //     fullscreen: false
+      // },
+      // {
+      //   windowId: "MailWindow", 
+      //     windowState: "close",
+      //     displayName: "Mail",
+      //     windowComponent: 'mail',
+      //     windowContent: '',
+      //     windowContentPadding: {
+      //       top: '0',
+      //       right: '0',
+      //       bottom: '0',
+      //       left: '0'
+      //     },
+      //     position: "absolute",
+      //     positionX: "6vw",
+      //     positionY: "12vh",
+      //     iconImage: "mail.png",
+      //     altText: "Mail",
+      //     fullscreen: false
+      // },
+      // {
+      //   windowId: "WebOSWindow", 
+      //     windowState: "close",
+      //     displayName: "Web OS",
+      //     windowComponent: 'webos',
+      //     windowContent: '',
+      //     windowContentPadding: {
+      //       top: '0',
+      //       right: '0',
+      //       bottom: '0',
+      //       left: '0'
+      //     },
+      //     position: "absolute",
+      //     positionX: "6vw",
+      //     positionY: "12vh",
+      //     iconImage: "webos.png",
+      //     altText: "Web OS",
+      //     fullscreen: true
+      // }
       // register your new windows here
     ],
     mailContent: '',
