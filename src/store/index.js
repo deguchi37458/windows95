@@ -56,6 +56,25 @@ export default new Vuex.Store({
         altText: "Résumé", // Window Icon Alt Text
         fullscreen: false // Window Fullscreen State [true, false]
       },
+      {
+        windowId: "WorksWindow", // Unique ID
+        windowState: "close", // Window State [open, close, minimize]
+        displayName: "制作実績", // Display Name (title under icon)
+        windowComponent: 'window', // Window Component (can be changed to use modified windows)
+        windowContent: 'works', // Window Content (used under slots)
+        windowContentPadding: {
+          top: null,
+          right: null,
+          bottom: null,
+          left: null
+        }, // Window Content Padding 
+        position: "absolute", // Window Position
+        positionX: "10vw", // Window Position X (when first opened)
+        positionY: "15vh", // Window Position Y (when first opened)
+        iconImage: "run.png", // Window Icon Image
+        altText: "works", // Window Icon Alt Text
+        fullscreen: false // Window Fullscreen State [true, false]
+      },
       // {
       //   windowId: "PhotosWindow", 
       //     windowState: "close",

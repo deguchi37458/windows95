@@ -8,7 +8,7 @@
                 <img class="social-image" src="@/assets/file.png"/>
                 ﾚｼﾞｭﾒ (<u>R</u>)
             </div>
-            <div class="bar" @click="openWindow(windows[1].windowId)">
+            <div class="bar" @click="openWindow(windows[2].windowId)">
                 <img class="social-image" src="@/assets/run.png"/>
                 制作実績(<u>W</u>)
             </div>

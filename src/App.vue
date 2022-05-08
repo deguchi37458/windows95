@@ -112,6 +112,7 @@ import AppGrid from './components/AppGrid'
 import Placeholder from './components/views/Placeholder'
 // import Photos from './components/views/Photos'
 import Bio from './components/views/Bio'
+import Works from './components/views/Works'
 // import Resume from './components/views/Resume'
 // import Nossaflex from './components/views/Nossaflex'
 // import Mail from './components/template/Mail'
@@ -133,6 +134,7 @@ export default {
         Placeholder,
         // Photos,
         Bio,
+        Works,
         // Resume,
         // Nossaflex,
         // Mail,
