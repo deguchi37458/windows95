@@ -1,11 +1,11 @@
 <template>
     <div class="app-grid">
-        <button class="app" v-touch:tap="openBio" v-on:dblclick="openBio">
+        <!-- <button class="app" v-touch:tap="openBio" v-on:dblclick="openBio">
             <img class="icon app-bio" src="../assets/win95Icons/bio.png"/>
             <div class="border">
                 <div class="icon-text">Biography</div>
             </div>
-        </button>
+        </button> -->
         <button class="app" v-touch:tap="openResume" v-on:dblclick="openResume">
             <!-- <a href="/files/don_chia_resume.pdf" target="_blank"> -->
             <img class="icon app-github" src="../assets/iPhone-Icons/resume.png"/>

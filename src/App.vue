@@ -26,7 +26,7 @@
             </component>
             <StartMenu v-if="$store.getters.getActiveWindow=='Menu'" style="position: absolute; z-index: 9999; bottom: 0; left: 0;"></StartMenu>
         </div>
-        <!-- <app-grid></app-grid> -->
+        <app-grid></app-grid>
     </div>
     <navbar id="navbar" />
 </div>
@@ -40,7 +40,7 @@
 @import './assets/css/utils/normalize.css';
 @import './assets/css/windows/app.css';
 @import './assets/css/windows/window.css';
-/* @import './assets/css/windows/appgrid.css'; */
+@import './assets/css/windows/appgrid.css';
 
 @font-face {
     font-family: "MS Sans Serif";
@@ -108,7 +108,7 @@ html {
 import Navbar from './components/windows/Navbar'
 // import TopNavbar from './components/macos/TopNavbar.vue'
 import Window from './components/template/Window'
-// import AppGrid from './components/AppGrid'
+import AppGrid from './components/AppGrid'
 import Placeholder from './components/views/Placeholder'
 import Photos from './components/views/Photos'
 import Bio from './components/views/Bio'
@@ -129,7 +129,7 @@ export default {
     components: {
         Window,
         Navbar,
-        // AppGrid,
+        AppGrid,
         Placeholder,
         Photos,
         Bio,
