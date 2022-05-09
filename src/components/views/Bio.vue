@@ -3,25 +3,10 @@
     <!-- <img class="self" src="@/assets/Biography/self.webp" /> -->
     <h2 class="header">ﾃﾞｸﾞﾁ ﾋﾛｷ (出口裕樹)</h2>
     <h4 class="subtitle" style="padding-bottom: 10px;">Web Engineer</h4>
-    <h4 class="subtitle">Japan 📍</h4>
-    <!-- <div class="badge-grid">
-        <img class="badge" alt="Swift" src="https://img.shields.io/badge/-Swift-orange" />
-        <img class="badge" alt="Python" src="https://img.shields.io/badge/-Python-blue" />
-        <img class="badge" alt="JavaScript" src="https://img.shields.io/badge/-Javascript-yellow" />
-        <img class="badge" alt="SQL" src="https://img.shields.io/badge/-SQL-lightgrey" />
-        <img class="badge" alt="Git" src="https://img.shields.io/badge/-Git-critical" />
-        <img class="badge" alt="HTML/CSS" src="https://img.shields.io/badge/-HTML%2FCSS-yellowgreen" />
-        <img class="badge" alt="SwiftUI" src="https://img.shields.io/badge/-SwiftUI-3e8bc3" />
-        <img class="badge" alt="Vue" src="https://img.shields.io/badge/-VueJS-61b083" />
-        <img class="badge" alt="Flask" src="https://img.shields.io/badge/-Flask-406893" />
-        <img class="badge" alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-4ca158" />
-        <img class="badge" alt="SQLite" src="https://img.shields.io/badge/-SQLite-64a2c9" />
-        <img class="badge" alt="Figma" src="https://img.shields.io/badge/-Figma-8c5aee" />
-    </div> -->
+    <h4 class="subtitle">📍 Japan Osaka</h4>
     <div class="inner-content">
         <h3 class="heading"><b>Personal Information</b></h3>
         <p class="paragraph">Date of Birth: 1994/05/07</p>
-        <p class="paragraph">Address: Osaka</p>
         <p class="paragraph">E-mail: deguchi37458@gmail.com</p>
     </div>
     <div class="inner-content">
