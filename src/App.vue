@@ -113,7 +113,7 @@ import Placeholder from './components/views/Placeholder'
 // import Photos from './components/views/Photos'
 import Bio from './components/views/Bio'
 import Works from './components/views/Works'
-// import Resume from './components/views/Resume'
+import Resume from './components/views/Resume'
 // import Nossaflex from './components/views/Nossaflex'
 // import Mail from './components/template/Mail'
 import StartMenu from './components/StartMenu.vue'
@@ -135,7 +135,7 @@ export default {
         // Photos,
         Bio,
         Works,
-        // Resume,
+        Resume,
         // Nossaflex,
         // Mail,
         StartMenu,
