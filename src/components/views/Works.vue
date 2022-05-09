@@ -2,8 +2,10 @@
 <div>
     <h2 class="header">制作実績</h2>
     <div class="inner-content">
-        <h3 class="heading"><b>ﾌｰﾄﾞｯﾄｺﾑ</b></h3>
-        <p class="paragraph">Web制作などの情報発信をするｳｪﾌﾞﾒﾃﾞｨｱのﾃﾞｻﾞｲﾝ、ﾌﾟﾛｸﾞﾗﾐﾝｸﾞを行いました。</p>
+        <h3 class="heading"><b>ﾎﾟｰﾄﾌｫﾘｵ</b></h3>
+        <img src="@/assets/Works/deguchihi.png" alt="deguchihi.net">
+        <p class="paragraph">WordPressを使用したﾎﾟｰﾄﾌｫﾘｵｻｲﾄです。</p>
+        <a href="https://deguchihi.net">https://deguchihi.net</a>
     </div>
 </div>
 </template>
@@ -52,5 +54,10 @@
 h2, h4, h3 {
     padding: 0;
     margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 </style>
