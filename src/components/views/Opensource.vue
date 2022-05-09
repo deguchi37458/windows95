@@ -7,14 +7,14 @@
     </div>
 
     <div class="inner-content">
-        <a href="https://main-preview-site.netlify.app/" target="_blank">
-            <img src="@/assets/open-source/main.png" alt="screenshot of main preview template" />
+        <a href="https:/cui.deguchihi.net/" target="_blank">
+            <img src="@/assets/open-source/linux-theme.png" alt="screenshot of linux template" />
             <h4 class="subtitle">Linux Theme</h4>
         </a>
     </div>
     <div class="inner-content">
-        <a href="https://windows-template.netlify.app/" target="_blank">
-            <img src="@/assets/open-source/win95.png" alt="screenshot of windows 95 template" />
+        <a href="https://windows95.deguchihi.nrt" target="_blank">
+            <img src="@/assets/open-source/win95.png" alt="screenshot of windows95 template" />
             <h4 class="subtitle">Windows95 Theme</h4>
         </a>
     </div>
@@ -56,9 +56,5 @@ h3 {
 img {
     width: 100%;
     height: auto;
-}
-
-a, .subtitle {
-    color: #FF5733 !important;
 }
 </style>
