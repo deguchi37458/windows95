@@ -1,7 +1,7 @@
 <template>
 <div>
     <!-- <img class="self" src="@/assets/Biography/self.webp" /> -->
-    <h2 class="header">ﾃﾞｸﾞﾁ ﾋﾛｷ (出口裕樹)</h2>
+    <h2 class="header">Hiroki Deguchi</h2>
     <h4 class="subtitle" style="padding-bottom: 10px;">Web Engineer</h4>
     <h4 class="subtitle">📍 Japan Osaka</h4>
     <div class="inner-content">
