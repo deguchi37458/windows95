@@ -13,8 +13,8 @@
         </a>
     </div>
     <div class="inner-content">
-        <a href="https://windows95.deguchihi.nrt" target="_blank">
-            <img src="@/assets/open-source/win95.png" alt="screenshot of windows95 template" />
+        <a href="https://windows95.deguchihi.net" target="_blank">
+            <img src="@/assets/open-source/windows95-theme.png" alt="screenshot of windows95 template" />
             <h4 class="subtitle">Windows95 Theme</h4>
         </a>
     </div>
