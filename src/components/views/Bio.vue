@@ -6,7 +6,7 @@
     <div class="inner-content">
         <h3 class="heading"><b>Personal Information</b></h3>
         <p>Birth: 1994/05/07</p>
-        <p>E-mail: deguchi37458@gmail.com</p>
+        <p>Address: Osaka, Japan</p>
         <p>E-mail: deguchi37458@gmail.com</p>
     </div>
     <div class="inner-content">
