@@ -75,44 +75,6 @@ export default new Vuex.Store({
         altText: "works", // Window Icon Alt Text
         fullscreen: false // Window Fullscreen State [true, false]
       },
-      // {
-      //   windowId: "PhotosWindow", 
-      //     windowState: "close",
-      //     displayName: "Photos",
-      //     windowComponent: 'window',
-      //     windowContent: 'photos',
-      //     windowContentPadding: {
-      //       top: '10px',
-      //       right: '10px',
-      //       bottom: '10px',
-      //       left: '10px'
-      //     },
-      //     position: "absolute",
-      //     positionX: "6vw",
-      //     positionY: "12vh",
-      //     iconImage: "photos.png",
-      //     altText: "Photos",
-      //     fullscreen: false
-      // },
-      // {
-      //   windowId: "NOSSAFLEXWindow", 
-      //     windowState: "close",
-      //     displayName: "NOSSAFLEX",
-      //     windowComponent: 'window',
-      //     windowContent: 'nossaflex',
-      //     windowContentPadding: {
-      //       top: null,
-      //       right: null,
-      //       bottom: null,
-      //       left: null
-      //     },
-      //     position: "absolute",
-      //     positionX: "6vw",
-      //     positionY: "12vh",
-      //     iconImage: "noss.webp",
-      //     altText: "NOSSAFLEX App",
-      //     fullscreen: false
-      // },
       {
         windowId: "OpenSourceWindow", 
           windowState: "close",
@@ -132,44 +94,6 @@ export default new Vuex.Store({
           altText: "Open Source Projects",
           fullscreen: false
       },
-      // {
-      //   windowId: "MailWindow", 
-      //     windowState: "close",
-      //     displayName: "Mail",
-      //     windowComponent: 'mail',
-      //     windowContent: '',
-      //     windowContentPadding: {
-      //       top: '0',
-      //       right: '0',
-      //       bottom: '0',
-      //       left: '0'
-      //     },
-      //     position: "absolute",
-      //     positionX: "6vw",
-      //     positionY: "12vh",
-      //     iconImage: "mail.png",
-      //     altText: "Mail",
-      //     fullscreen: false
-      // },
-      // {
-      //   windowId: "WebOSWindow", 
-      //     windowState: "close",
-      //     displayName: "Web OS",
-      //     windowComponent: 'webos',
-      //     windowContent: '',
-      //     windowContentPadding: {
-      //       top: '0',
-      //       right: '0',
-      //       bottom: '0',
-      //       left: '0'
-      //     },
-      //     position: "absolute",
-      //     positionX: "6vw",
-      //     positionY: "12vh",
-      //     iconImage: "webos.png",
-      //     altText: "Web OS",
-      //     fullscreen: true
-      // }
       // register your new windows here
     ],
     mailContent: '',
