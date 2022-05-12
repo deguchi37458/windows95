@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.20.2",
     "emailjs-com": "^2.6.4",
+    "firebase": "^9.8.1",
     "vue": "^2.6.11",
     "vue-interactjs": "^0.1.10",
     "vue-moment": "^4.1.0",
