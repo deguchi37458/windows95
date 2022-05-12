@@ -6,7 +6,7 @@
     <h4 class="subtitle">📍 Japan Osaka</h4>
     <div class="inner-content">
         <h3 class="heading"><b>Personal Information</b></h3>
-        <p class="paragraph">Date of Birth: 1994/05/07</p>
+        <p class="paragraph">Birth: 1994/05/07</p>
         <p class="paragraph">E-mail: deguchi37458@gmail.com</p>
     </div>
     <div class="inner-content">
