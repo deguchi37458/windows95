@@ -10,7 +10,7 @@
     <div class="inner-content">
         <h3 class="heading"><b>Windows95 Theme</b></h3>
         <img src="@/assets/open-source/windows95-theme.png" alt="screenshot of windows95 template" />
-        <a href="https://windows95.deguchihi.net" target="_blank">https://windows95.deguchihi.net</a><br>
+        <a href="https://win95.deguchihi.net" target="_blank">https://win95.deguchihi.net</a><br>
         <a href="https://github.com/deguchi37458/windows95" target="_blank">Repository</a>
     </div>
 </div>
