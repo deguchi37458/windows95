@@ -105,20 +105,15 @@ html {
     Import Components, you can change the path for different
     component themes (blueprint, windows, macos)
 \*------------------------------------------------------------*/
-import Navbar from './components/windows/Navbar'
-// import TopNavbar from './components/macos/TopNavbar.vue'
-import Window from './components/template/Window'
+import StartMenu from './components/StartMenu.vue'
 import AppGrid from './components/AppGrid'
-import Placeholder from './components/views/Placeholder'
-// import Photos from './components/views/Photos'
+import Window from './components/template/Window'
+import Navbar from './components/windows/Navbar'
 import Bio from './components/views/Bio'
 import Works from './components/views/Works'
 import Resume from './components/views/Resume'
-// import Nossaflex from './components/views/Nossaflex'
-// import Mail from './components/template/Mail'
-import StartMenu from './components/StartMenu.vue'
-// import Webos from './components/template/WebOS'
 import Opensource from './components/views/Opensource'
+import Placeholder from './components/views/Placeholder'
 export default {
     name: 'App',
     data: function () {
@@ -128,20 +123,15 @@ export default {
         }
     },
     components: {
+        StartMenu,
+        AppGrid,
         Window,
         Navbar,
-        AppGrid,
-        Placeholder,
-        // Photos,
         Bio,
         Works,
         Resume,
-        // Nossaflex,
-        // Mail,
-        StartMenu,
-        // Webos,
-        Opensource
-        // TopNavbar,
+        Opensource,
+        Placeholder
     },
     computed: {
         style() {
