@@ -94,11 +94,27 @@ export default new Vuex.Store({
           altText: "Open Source Projects",
           fullscreen: false
       },
+      {
+        windowId: "HelpWindow", 
+          windowState: "close",
+          displayName: "ﾍﾙﾌﾟ",
+          windowComponent: 'window',
+          windowContent: 'help',
+          windowContentPadding: {
+            top: null,
+            right: '15px',
+            bottom: null,
+            left: '15px'
+          },
+          position: "absolute",
+          positionX: "6vw",
+          positionY: "12vh",
+          iconImage: "help.png",
+          altText: "Help",
+          fullscreen: false
+      },
       // register your new windows here
     ],
-    mailContent: '',
-    mailSender: '',
-    mailSubject: 'New Message',
   },
   mutations: {
     // Active Window Mutator

@@ -113,6 +113,7 @@ import Bio from './components/views/Bio'
 import Works from './components/views/Works'
 import Resume from './components/views/Resume'
 import Opensource from './components/views/Opensource'
+import Help from './components/views/Help'
 import Placeholder from './components/views/Placeholder'
 export default {
     name: 'App',
@@ -131,6 +132,7 @@ export default {
         Works,
         Resume,
         Opensource,
+        Help,
         Placeholder
     },
     computed: {
