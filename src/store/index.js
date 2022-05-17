@@ -9,7 +9,7 @@ export default new Vuex.Store({
     fullscreenWindowHeight: window.innerHeight + "px",
 
     // Active Window State
-    activeWindow: "BiographyWindow", 
+    activeWindow: "MyComputerWindow", 
 
     // Active Windows Array State
     activeWindows: [],
@@ -19,11 +19,11 @@ export default new Vuex.Store({
 
     windows: [
       {
-        windowId: "BiographyWindow", // Unique ID
+        windowId: "MyComputerWindow", // Unique ID
         windowState: "close", // Window State [open, close, minimize]
-        displayName: "Biography", // Display Name (title under icon)
+        displayName: "ﾏｲ ｺﾝﾋﾟｭｰﾀ", // Display Name (title under icon)
         windowComponent: 'window', // Window Component (can be changed to use modified windows)
-        windowContent: 'bio', // Window Content (used under slots)
+        windowContent: 'MyComputer', // Window Content (used under slots)
         windowContentPadding: {
           top: null,
           right: null,
@@ -33,8 +33,8 @@ export default new Vuex.Store({
         position: "absolute", // Window Position
         positionX: "25vw", // Window Position X (when first opened)
         positionY: "5%", // Window Position Y (when first opened)
-        iconImage: "bio.png", // Window Icon Image
-        altText: "Biography", // Window Icon Alt Text
+        iconImage: "mycomputer.png", // Window Icon Image
+        altText: "MyComputer", // Window Icon Alt Text
         fullscreen: false // Window Fullscreen State [true, false]
       },
       {

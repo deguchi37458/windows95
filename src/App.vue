@@ -109,7 +109,7 @@ import StartMenu from './components/StartMenu.vue'
 import AppGrid from './components/AppGrid'
 import Window from './components/template/Window'
 import Navbar from './components/windows/Navbar'
-import Bio from './components/views/Bio'
+import MyComputer from './components/views/MyComputer'
 import Works from './components/views/Works'
 import Resume from './components/views/Resume'
 import Opensource from './components/views/Opensource'
@@ -128,7 +128,7 @@ export default {
         AppGrid,
         Window,
         Navbar,
-        Bio,
+        MyComputer,
         Works,
         Resume,
         Opensource,
@@ -168,7 +168,7 @@ export default {
         }
         window.addEventListener("resize", resetHeight);
         this.$store.commit('setFullscreenWindowHeight', window.innerHeight - navbarHeight - topNavbarHeight + "px");
-        this.openWindow('BiographyWindow')
+        this.openWindow('MyComputerWindow')
     },
     methods: {
         openWindow(windowId) {
