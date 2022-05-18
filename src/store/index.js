@@ -113,6 +113,25 @@ export default new Vuex.Store({
           altText: "Help",
           fullscreen: false
       },
+      {
+        windowId: "ShutdownWindow", 
+          windowState: "close",
+          displayName: "Windowsの終了",
+          windowComponent: 'window',
+          windowContent: 'shutdown',
+          windowContentPadding: {
+            top: null,
+            right: '15px',
+            bottom: null,
+            left: '15px'
+          },
+          position: "absolute",
+          positionX: "6vw",
+          positionY: "12vh",
+          iconImage: "shut-down.png",
+          altText: "Shutdown",
+          fullscreen: false
+      },
       // register your new windows here
     ],
   },

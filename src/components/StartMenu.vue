@@ -21,7 +21,7 @@
                 ﾍﾙﾌﾟ(<u>H</u>)
             </div>
             <div class="divider"></div>
-            <div class="bar">
+            <div class="bar" @click="openWindow(windows[5].windowId)">
                 <img class="social-image" src="@/assets/shut-down.png"/>
                 Windows の終了(<u>U</u>)...
             </div>
