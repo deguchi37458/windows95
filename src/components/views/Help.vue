@@ -2,7 +2,7 @@
 <div>
     <h2>Help</h2>
     <div class="inner-content">
-        
+        <p>windows95を模したポートフォリオサイトになります。</p>
     </div>
 </div>
 </template>
