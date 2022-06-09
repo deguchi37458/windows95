@@ -1,24 +1,7 @@
 # windows95
 
-## Project setup
-```
-npm install
-```
+![windows95](https://user-images.githubusercontent.com/74271220/169658322-dffe27a3-bc4b-460e-9fd4-a7753a5925d2.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 概要
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- URL：[win95.deguchihi.net](https://win95.deguchihi.net) 

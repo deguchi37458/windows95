@@ -16,12 +16,12 @@
                 <img class="social-image" src="@/assets/run.png"/>
                 ｵｰﾌﾟﾝｿｰｽ(<u>S</u>)
             </div>
-            <div class="bar">
+            <div class="bar" @click="openWindow(windows[4].windowId)">
                 <img class="social-image" src="@/assets/help.png"/>
                 ﾍﾙﾌﾟ(<u>H</u>)
             </div>
             <div class="divider"></div>
-            <div class="bar">
+            <div class="bar" @click="openWindow(windows[5].windowId)">
                 <img class="social-image" src="@/assets/shut-down.png"/>
                 Windows の終了(<u>U</u>)...
             </div>
