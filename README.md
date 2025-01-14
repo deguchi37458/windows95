@@ -6,7 +6,7 @@
 
 windows95を模したポートフォリオサイトです。
 
-- URL：[win95.deguchihi.net](https://win95.deguchihi.net) 
+- URL： https://deguchi37458.github.io/windows95/
 
 ## 技術
 
